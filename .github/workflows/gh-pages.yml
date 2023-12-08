@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     # Hugoのセットアップ（バージョンはプロジェクトに合わせて調整）
     - name: Setup Hugo
